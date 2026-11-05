@@ -6,7 +6,7 @@ class Program
     {
        /*Random Number Guessing Game*/
 
-       int pcNumber = new Random().Next(1, 100);
+       int pcNumber = new Random().Next(1, 101);
        Console.WriteLine("I'm thinking of a number between 1 and 100. Can you guess what it is?");
 
          int userGuess = 0;
